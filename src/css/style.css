@@ -55,3 +55,47 @@
     font-weight: bold;
     color: #c2b7b7;
 }
+.containerSobre {
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+    padding: 45px;
+    box-sizing: border-box;
+    background-color: #c2b7b7;
+}
+.conatinerSobreImg img {
+    width: 350px;
+}
+.conatinerSobreImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.containerSobreText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.containerSobreSkills {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+    margin-top: 8px;
+}
+.sobreSkillsOne {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    height: 90px;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
